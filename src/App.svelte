@@ -6,11 +6,11 @@
   import HideToggle from "./HideToggle.svelte"
   import {
     educations,
-    fullVersionLink,
+    // fullVersionLink,
     interests,
     introData,
     projects,
-    sourceLink,
+    // sourceLink,
     technologies,
     workExperiences,
   } from "./data"
@@ -50,7 +50,7 @@
       >[Edit Mode]</button
     > to hide some sections before printing.
   </p>
-  (<a href={sourceLink} target="_blank" rel="noopener">Source</a>)
+  <!-- (<a href={sourceLink} target="_blank" rel="noopener">Source</a>) -->
 </header>
 
 <main
@@ -136,12 +136,12 @@
     </ul>
   </section>
 
-  <footer class="print-only">
+  <!-- <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
     >
     or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-  </footer>
+  </footer> -->
 </main>
 
 <style>

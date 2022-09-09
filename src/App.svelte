@@ -11,6 +11,7 @@
     introData,
     projects,
     // sourceLink,
+    references,
     technologies,
     workExperiences,
   } from "./data"
@@ -136,6 +137,29 @@
     </ul>
   </section>
 
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Reference</h2>
+    <hr />
+
+    <ul class="text-left list-disc pl-8">
+      {#each references as reference}
+        <li>
+          <HideToggle />
+          {#if reference.url == undefined}
+            <strong>{reference.name}</strong>
+          {:else}
+            <a href="https://{reference.url}" target="_blank" rel="noreferrer"
+              ><strong>{reference.name}</strong></a
+            >
+          {/if}
+          {#each reference.details as detail}
+            <ul class="index">{detail}</ul>
+          {/each}
+        </li>
+      {/each}
+    </ul>
+  </section>
   <!-- <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a

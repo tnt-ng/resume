@@ -89,3 +89,22 @@ export const interests = [
   "Remote working is a OK. I extensively use self time tracking app for all my works.",
   "Pets : I have 5 dogs",
 ]
+
+export const references = [
+  {
+    name: "Assoc. Prof. Parinya Sanguansat",
+    details: [  
+      "Department of Computer Engineering",
+      "Panyapiwat Institute of Management",
+      "Nonthaburi, Thailand",
+    ]
+  },
+  {
+    name: "Asst. Prof. Adisorn Kheaksong",
+    details: [  
+      "Department of Computer Engineering",
+      "Panyapiwat Institute of Management",
+      "Nonthaburi, Thailand",
+    ]
+  },
+]

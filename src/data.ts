@@ -60,7 +60,7 @@ export const workExperiences = [
     company: "Outsource",
     years: ["2022"],
     details: [
-      "Develop a system for borrowing books in the library with RFID on the Kiosk Touch Screen and installing equipment",
+      "Develop a system for borrowing books in the library with RFID on the Kiosk Touch Screen and installing equipment.",
       "Designed, developed and maintained  website (Book rental, Payment, Face Detection, Reporting, APIs, etc.) stack Django, Svelte.",
       "Design and installation of on-site network systems using Kiosk Touch Screen.",
       "Researched & introduced modern technologies to the team, such as SvelteJS, TailwindCSS, Vite, Hardware for Kiosk, etc."
@@ -72,7 +72,7 @@ export const projects = [
   {
     name: "Mask detection system with individual identification",
     details:
-      "Develop a system to detect masks with identification by using convolutional neural networks, Transfer Learning, Face Recognition, FaceNet",
+      "Develop a system to detect masks with identification by using convolutional neural networks, Transfer Learning, Face Recognition, FaceNet.",
     url: "github.com/tnt-ng/Mask-Detection-with-identify"
   },
   {
@@ -87,7 +87,7 @@ export const interests = [
   "Games : sports, FPS, MOBA, Puzzle",
   "Music : EDM, Rock, Japanese",
   "Remote working is a OK. I extensively use self time tracking app for all my works.",
-  "Pets : I have 5 dogs",
+  "Pets : I have 5 dogs.",
 ]
 
 export const references = [

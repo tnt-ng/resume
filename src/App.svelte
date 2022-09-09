@@ -109,19 +109,17 @@
     <hr />
 
     <ul class="text-left list-disc pl-8">
-      {#each references as reference}
+      {#each projects as project}
         <li>
           <HideToggle />
-          {#if reference.url == undefined}
-            <strong>{reference.name}</strong>
+          {#if project.url == undefined}
+            <strong>{project.name}</strong>
           {:else}
-            <a href="https://{reference.url}" target="_blank" rel="noreferrer"
-              ><strong>{reference.name}</strong></a
+            <a href="https://{project.url}" target="_blank" rel="noreferrer"
+              ><strong>{project.name}</strong></a
             >
           {/if}
-          {#each reference.details as detail}
-            <ul class="index">{detail}</ul>
-          {/each}
+          <ul class="index">{project.details}</ul>
         </li>
       {/each}
     </ul>
